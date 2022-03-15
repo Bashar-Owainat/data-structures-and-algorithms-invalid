@@ -19,7 +19,7 @@ static void reverse (int[] arr)
             }
         }
 
- ![scetch](./reverse-arry.png)
+ ![scetch](../reverse-arry.png)
 
  efficiency: we only needed to itrate half the arry length
 
