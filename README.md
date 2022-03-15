@@ -19,7 +19,7 @@ static void reverse (int[] arr)
             }
         }
 
- ![scetch](../reverse-arry.png)
+ ![scetch](C:\Users\LEGION\source\repos\Bashar-Owainat\data-structures-and-algorithms/reverse-arry.png)
 
  efficiency: we only needed to itrate half the arry length
 
