@@ -6,4 +6,4 @@ without using any built-in method
 ![image](reversedArrayWhiteboard.png)
 
 
-efficiency: we only needed to itrate half the arry length which means O(n)
+efficiency: we only needed to itrate half the arry length
