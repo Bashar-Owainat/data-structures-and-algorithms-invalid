@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\array-insert-shift"
+    "\\Linked-lists",
+    "\\Linked-lists\\LinkedList"
   ],
-  "SelectedNode": "\\array-insert-shift\\README.md",
+  "SelectedNode": "\\Linked-lists\\LinkedList\\SLLReadMe.md",
   "PreviewInSolutionExplorer": false
 }
