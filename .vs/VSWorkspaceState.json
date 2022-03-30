@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Challenges",
+    "\\Data-Structures",
+    "\\Data-Structures\\Linked-lists"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Data-Structures",
   "PreviewInSolutionExplorer": false
 }
