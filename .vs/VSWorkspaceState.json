@@ -1,9 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
+    "\\Challenges",
+    "\\Data-Structures",
+    "\\Data-Structures\\Linked-lists"
+  ],
+  "SelectedNode": "\\Data-Structures",
+=======
     "\\code-challenge04",
     "\\Linked-lists",
     "\\Linked-lists\\LinkedList"
   ],
+>>>>>>> 657fe61e21843fe19bcfca294a74eb9d31895f18
   "PreviewInSolutionExplorer": false
 }
