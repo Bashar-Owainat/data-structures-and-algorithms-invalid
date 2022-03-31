@@ -11,6 +11,11 @@ namespace LinkedList
             //SLL list = new SLL();
             //SLL.Insert(list, 5);
             //SLL.Insert(list, 2);
+            //list.Append(6);
+            //list.Append(6);
+            //list.Append(6);
+
+
             //SLL.Insert(list, 53);
             //SLL.Insert(list, 100);
             //SLL list = new SLL();

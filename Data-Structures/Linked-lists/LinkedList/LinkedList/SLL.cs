@@ -58,6 +58,30 @@ namespace LinkedList
             str = str + "NUll";
             return str;
         }
+        //append at the end
+        public void Append(int newValue)
+        {
+            Node newNode = new Node(newValue);
+
+            if(head == null)
+            {
+                head = newNode;
+            }
+            else
+            {
+                Node temp;
+                temp = head;
+                while(temp.next != null)
+                {
+                    temp = temp.next;
+                }
+                temp.next = newNode;
+            }
+        }
+
+     
+
+
 
 
     }

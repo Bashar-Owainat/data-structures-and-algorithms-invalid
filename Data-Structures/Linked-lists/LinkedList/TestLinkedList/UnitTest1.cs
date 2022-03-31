@@ -90,5 +90,33 @@ namespace TestLinkedList
             Assert.Equal("[5] -> [6] -> [7] -> [8] -> NUll", result);
 
         }
+
+        [Fact]
+        public void AppendOneNode()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5);
+            SLL.Insert(list, 2);
+            list.Append(6);
+            string result = SLL.ToStringMethod(list);
+            Assert.Equal("[2] -> [5] -> [6] -> NUll", result);
+        }
+
+        //test
+        [Fact]
+        public void AppendMultipleNodes()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5);
+            SLL.Insert(list, 2);
+            list.Append(6);
+            list.Append(6);
+            list.Append(6);
+            string result = SLL.ToStringMethod(list);
+            Assert.Equal("[2] -> [5] -> [6] -> [6] -> [6] -> NUll", result);
+
+            //[2] -> [5] -> [6] -> [6] -> [6] -> NUll
+
+        }
     }
 }
