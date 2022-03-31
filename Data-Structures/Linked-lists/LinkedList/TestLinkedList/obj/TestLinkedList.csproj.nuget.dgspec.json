@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj": {}
+    "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj": {
+    "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj",
+        "projectPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\LinkedList\\obj\\",
+        "outputPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj": {
+    "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj",
         "projectName": "TestLinkedList",
-        "projectPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj",
+        "projectPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\TestLinkedList\\obj\\",
+        "outputPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\TestLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj"
+              "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\LinkedList\\LinkedList.csproj"
               }
             }
           }

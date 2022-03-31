@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2JWtvN28NjhA9F6b5H+4/1v/ojQP2iX57WOXhDmSY1+5rMZFfTs+bEiVB6BdCXR4scV3EADq5iOteLVZmtWn8w==",
+  "dgSpecHash": "+gFYY2RB2ypdtjaZHigDX9DDI4sW6E1MD2x5yps9b1R7k7r2AWLPpJ1Cwa+A4lR0/9TSBP0rJl0fnYRLW2tVJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj",
+  "projectFilePath": "C:\\Users\\LEGION\\source\\repos\\Bashar-Owainat\\data-structures-and-algorithms\\Data-Structures\\Linked-lists\\LinkedList\\TestLinkedList\\TestLinkedList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEGION\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\LEGION\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
