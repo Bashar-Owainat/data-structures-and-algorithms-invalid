@@ -8,13 +8,13 @@ namespace LinkedList
         static void Main(string[] args)
         {
 
-            //SLL list = new SLL();
-            //SLL.Insert(list, 5);
+            SLL list = new SLL();
+            SLL.Insert(list, 5);
             //SLL.Insert(list, 2);
             //list.Append(6);
-            //list.Append(6);
-            //list.Append(6);
-
+            //list.Append(4);
+            //list.Append(1);
+            list.KthFromEnd(1);
 
             //SLL.Insert(list, 53);
             //SLL.Insert(list, 100);
@@ -25,7 +25,7 @@ namespace LinkedList
             //SLL.Insert(list, 2);
 
             //Console.WriteLine(SLL.Includes(list, 2));
-            //Console.WriteLine(SLL.ToStringMethod(list));
+            Console.WriteLine(SLL.ToStringMethod(list));
             //Console.WriteLine(list.head.value);
 
 

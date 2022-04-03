@@ -91,6 +91,9 @@ namespace TestLinkedList
 
         }
 
+
+        //tests for challenge 6
+
         [Fact]
         public void AppendOneNode()
         {
@@ -102,7 +105,6 @@ namespace TestLinkedList
             Assert.Equal("[2] -> [5] -> [6] -> NUll", result);
         }
 
-        //test
         [Fact]
         public void AppendMultipleNodes()
         {
@@ -118,5 +120,100 @@ namespace TestLinkedList
             //[2] -> [5] -> [6] -> [6] -> [6] -> NUll
 
         }
+
+
+
+        // tests for challenge 7
+
+
+
+
+
+        [Fact]
+        public void KOutOfRange()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5);
+            SLL.Insert(list, 2);
+            list.Append(6);
+            //list.KthFromEnd(4);
+
+
+            //    Action act = () => list.KthFromEnd(4);
+
+            //    IndexOutOfRangeException exception = Assert.Throws<IndexOutOfRangeException>(act);
+
+            //    Assert.Equal("4 is out of the linked list's range! ", exception.Message);
+            
+            
+            
+            // it throws an error but I don't know how to x unit test Exceptions
+
+        }
+
+
+        [Fact]
+        public void SameNumbers()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5); // it adds at head
+            SLL.Insert(list, 2); // it adds at head
+            list.Append(6); // it adds at the end
+            
+
+           Assert.Equal(2 , list.KthFromEnd(3));
+
+        }
+
+
+        [Fact]
+        public void NegativeNumbers()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5); // it adds at head
+            SLL.Insert(list, 2); // it adds at head
+            list.Append(6); // it adds at the end
+
+
+           // Assert.NotEqual(2, list.KthFromEnd(-3));
+
+           // it throws an error but I don't know how to x unit test Exceptions
+
+        }
+
+        [Fact]
+        public void OneNumber()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5); // it adds at head
+           
+
+
+             Assert.Equal(5  , list.KthFromEnd(1));
+
+            
+
+        }
+
+
+
+        [Fact]
+        public void NumberInMiddle()
+        {
+            SLL list = new SLL();
+            SLL.Insert(list, 5); // it adds at head
+            list.Append(8);
+            list.Append(2);
+            list.Append(3);
+            list.Append(7);
+            list.Append(6);
+            list.Append(4);
+
+            Assert.Equal(3, list.KthFromEnd(4));
+
+
+
+        }
     }
 }
+
