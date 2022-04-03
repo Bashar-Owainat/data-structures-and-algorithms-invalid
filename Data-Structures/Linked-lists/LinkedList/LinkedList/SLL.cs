@@ -79,9 +79,36 @@ namespace LinkedList
             }
         }
 
-     
 
+        
+        public int KthFromEnd(int k) // k starts from 1
+        {
+            Node mainPointer = head;
+            Node refPointer = head;
 
+            int counter = 0;
+            if(head != null)
+            {
+                while (counter < k)
+                {
+                    if(refPointer == null)
+                    {
+                        throw new IndexOutOfRangeException(k + " is out of the linked list's range! "); 
+                    }
+                    refPointer = refPointer.next;
+                    counter++;
+                }
+
+                while(refPointer != null)
+                {
+                    mainPointer = mainPointer.next;
+                    refPointer = refPointer.next;
+                }
+            }
+               
+                Console.WriteLine("The value in "+k+ " from the end is "+mainPointer.value);
+                return mainPointer.value;
+        }
 
 
     }
